@@ -1,0 +1,146 @@
+a { 
+    color: #3a4364;
+}
+body {
+    color: #736c84;
+    font-family: 'Merriweather', serif;
+    margin: 0rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 3rem auto 0rem auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    line-height: 4rem;
+}
+
+h2 { 
+    font-size: 2rem;
+    margin: 0rem auto 0.625rem auto;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #1a6bad;
+    margin: 0rem auto 1rem auto;
+
+}
+h1,h2 { 
+    color: #2460b5;
+}
+
+h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 0.25rem;
+    color: #819ab3;
+    width: 3rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    
+}
+
+p {
+    margin: 0.12rem;
+    margin-bottom: 1.25rem;
+}
+
+/************************ CLASS ************************/
+
+.bottom-container {
+    color: #736c84;
+    text-align: bottom;
+    padding: 20px;
+    font-size: 10px;
+}
+.contact-me {
+    padding-bottom: 0.625rem;
+}
+.dev {
+    text-decoration: underline;
+}
+.footer {
+    margin-bottom: 0rem;
+}
+.middle-container {
+    background-color: #d7d8da;
+}
+.skill-row {
+    display: inline-block; 
+    text-align: left; 
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    margin: auto 100px auto 100px;
+}
+.top-container {
+    background-color: #d7d8da;
+    position: relative;
+    padding-top: 8.68rem;
+    padding-bottom: 3.125rem;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    text-align: flex;
+}
+.languages {
+    position: relative;
+    left: 175px;
+}
+.soft-skills {
+    position: relative;
+    right: 175px;
+    text-align: right;
+}
+
+/********************** IMG CLASS ***********************/
+
+.bottom-cloud {
+    position: absolute;
+    left: 15rem;
+    top: 11.88rem;
+    width:  12.5rem;
+    height:  12.5rem;
+}
+.computer {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    margin-right: 30px;
+}
+.languages-img  {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    margin-right: 30px;
+}
+.mountain {
+    width: 27rem;
+    height: 27rem;
+}
+.profile-pic {
+    margin-top: 1rem;
+    width: 10.5rem;
+    height: 10.5rem;
+}
+.skill  {
+    width: 10rem;
+    height: 10rem;
+    float: right;
+    margin-left: 30px;
+}
+.top-cloud {
+    position: absolute;
+    top: 2rem;
+    right: 12.5rem;
+    width: 15rem;
+    height: 15rem;
+}
